@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  background-color: #e6eeec;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 60em;
+  min-width: 30em;
+}
+
+header h1 {
+  position: relative;
+  right: 16em;
+  max-width:40em;
+  min-width: 40em;
+
+}
+
+#hoved {
+  background-color: white;
+  max-width: 60em;
+  height: 40em;
+  margin: 0 auto 0 auto;
+  border-radius: 0.3em;
+}
+
+#nav-bar {
+  background-color: #2d3436;
+  max-height: 2em;
+  padding: 1em;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+
+}
+
+#nav-bar a {
+  position: relative;
+  left: -40%;
+}
+
+#nav-bar a:hover,#nav-bar a:visited,#nav-bar a{
+  text-decoration:none;
+  color: white;
+  font-size: 1.3em;
+  padding: 0.2em;
+}
+
+#sok p {
+  color: white;
+  position: relative;
+  bottom: -1em;
+}
+
+#sok {
+  position: relative;
+  right:-20em;
+  bottom: 3.5em;
+}
+
+#hovedinnhold {
+  border: solid;
+  max-width: 50em;
+  height: 25em;
+  margin: 2em auto 0 auto;
+}
